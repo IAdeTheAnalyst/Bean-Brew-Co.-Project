@@ -20,7 +20,7 @@ This project analyzes real-world coffee shop sales data to uncover trends in pro
 
 ## 📊 Dashboard Preview
 
-![Bean & Brew Co. Excel Dashboard](images/dashboard.png)
+![Bean & Brew Co. Excel Dashboard](Dashboard.png)
 
 ---
 

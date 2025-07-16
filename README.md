@@ -1,41 +1,48 @@
-# ☕ Bean & Brew Co. — Excel Dashboard & Data Analysis
+# ☕ Bean & Brew Co. — Excel Sales Dashboard & Data Analysis
 
-This project explores sales and project tracking data for **Bean & Brew Co.**, a fictional luxury coffee shop. Built entirely in Microsoft Excel, this dynamic dashboard gives a sleek, modern view of operational performance — including project status, resource usage, and overdue task tracking.
+This project explores sales and operational performance for Bean & Brew Co., a fictional modern coffee shop. Built entirely in Excel, this project features a fully interactive dashboard powered by PivotTables, slicers, charts, and data validation — ideal for monitoring project progress, employee workload, overdue tasks, and key sales KPIs.
 
 ---
 
 ## 🧠 Key Business Questions
-- How many projects are currently being managed?
-- What’s the status of all tasks — completed, in progress, or not started?
-- Which employees are handling the most workload?
-- What percentage of tasks are overdue?
-- Which projects have the lowest completion rates?
-- What’s the average progress across all projects?
-- Which team members are assigned to the most overdue tasks?
-- How does resource usage vary among team members?
-- Are any tasks or projects significantly behind schedule?
-- What percent of all tasks are fully completed?
+1. How many projects are currently being managed?
+2. What’s the current status of all tasks — completed, in progress, or not started?
+3. Which employees are managing the most workload?
+4. What percentage of tasks are overdue, and how late are they?
+5. Which projects have the lowest completion rates?
+6. What’s the average progress of tasks across all projects?
+7. Which team members are assigned to the most overdue tasks?
+8. How does individual resource usage compare?
+9. Are any projects or tasks significantly behind schedule?
+10. What percentage of all tasks have reached full completion?
 
 ---
 
-## 📊 Tools & Features Used
+## 📊 Tools Used
 - **Microsoft Excel**
-- Pivot Tables & Slicers
-- Data Validation Drop-downs
-- Conditional Formatting
-- Donut, Bar & Pie Charts
-- Interactive Dashboard Layout
-- Combo Box Filter Setup (for scalability)
+- **PivotTables & Slicers**
+- **Conditional Formatting**
+- **Bar, Donut, and Pie Charts**
+- **Data Validation & Drop-downs**
+- **Combo Boxes (for future filtering features)**
+- **Interactive Dashboard Layout Design**
 
 ---
 
 ## 📌 Key Insights
-- ✅ All 37 tasks in the final dashboard were completed.
-- 🎯 Projects like *Red* and *Orange* showed full completion, while *Violet* and *Brown* lagged behind.
-- 🧑‍💼 Whitney and Jordan had the highest workload distribution; Morgan had the lowest.
-- ⚠️ 6 tasks were overdue by 2–7 days.
-- 📊 The visual dashboard layout allows for quick and intuitive performance assessment.
+- **Project Completion:** All 37 tasks were completed — demonstrating solid execution across teams.
+- **Underperforming Projects:** *Violet* and *Brown* projects showed the lowest progress at 11% and 34%, respectively.
+- **Workload Distribution:** Whitney and Jordan carried the largest share of resources, while Morgan was underutilized.
+- **Overdue Tracking:** 6 tasks were flagged as overdue by 2 to 7 days — highlighting the need for better time management.
+- **Visual Clarity:** The use of donut charts, progress bars, and slicers enhances reporting and makes KPI tracking easier and cleaner.
 
 ---
 
-## 📂 File Structure
+## 📂 Dataset Overview
+The Bean & Brew Co. Excel file includes:
+- Project task lists with task owners, due dates, progress %, and status flags
+- Resource usage data by employee
+- Overdue tracking sheet
+- Clean dashboard with filterable visuals and KPI summaries
+
+> **Source:** (https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales)

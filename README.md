@@ -18,6 +18,12 @@ This project analyzes real-world coffee shop sales data to uncover trends in pro
 
 ---
 
+## 📊 Dashboard Preview
+
+![Bean & Brew Co. Excel Dashboard](images/dashboard.png)
+
+---
+
 ## 📊 Tools Used
 - **Microsoft Excel**
 - **Formulas:** `SUMIFS`, `COUNTIFS`, `AVERAGEIFS`, `IF`
@@ -48,4 +54,3 @@ The dataset contains transactional sales data for a fictional chain of coffee sh
 - Unit price and calculated total sale
 
 > **Source:** [Coffee Sales Dataset | Kaggle](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales)
-

@@ -27,6 +27,7 @@ In this analysis, I aimed to answer the following business questions:
 
 ---
 
+
 ## Tools & Technical Approach
 In this project, I used:
 - Microsoft Excel
@@ -61,6 +62,18 @@ One challenge I faced was ensuring formula accuracy across large datasets while 
 Another challenge involved designing a dashboard that balanced interactivity with simplicity. I resolved this by grouping visuals logically and prioritizing key KPIs at the top.
 
 Additionally, validating consistency between pivot table summaries and formula-based KPIs required careful cross-checking.
+
+---
+
+## What I Learned
+Through this project, I strengthened my ability to:
+- Clean and structure transactional data in Excel
+- Use conditional aggregation formulas for business analysis
+- Build dynamic pivot tables for scalable reporting
+- Design interactive dashboards using slicers and KPI cards
+- Present financial and operational insights in a clear, executive-friendly format
+
+I also gained practical experience translating raw sales data into visually compelling business insights.
 
 ---
 

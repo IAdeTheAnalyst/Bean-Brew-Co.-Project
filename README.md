@@ -1,10 +1,13 @@
-# ☕ Bean & Brew Co. — Excel Sales Dashboard & Data Analysis
+# Bean & Brew Co. — Excel Sales Dashboard & Data Analysis
 
-This project analyzes real-world coffee shop sales data to uncover trends in product performance, customer purchasing behavior, and store performance. Built using Microsoft Excel, the interactive dashboard includes visual KPIs, pivot tables, and slicers that deliver a clean, professional portfolio-ready report.
+In this project, I analyzed transactional sales data for a fictional coffee shop chain, Bean & Brew Co., using Microsoft Excel. My objective was to transform raw sales data into an interactive, executive-ready dashboard that highlights revenue trends, product performance, store comparisons, and customer purchasing behavior.
+
+Through structured analysis using formulas, pivot tables, and dynamic visualizations, I developed a clean and professional dashboard designed to help stakeholders quickly interpret key performance indicators and identify opportunities for revenue growth.
 
 ---
 
-## 🧠 Key Business Questions
+## Project Objectives
+In this analysis, I aimed to answer the following business questions:
 1. What is the total revenue generated per product category?
 2. Which product types sell the highest quantity and bring in the most revenue?
 3. What is the average sale per transaction?
@@ -18,39 +21,53 @@ This project analyzes real-world coffee shop sales data to uncover trends in pro
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ![Bean & Brew Co. Excel Dashboard](Dashboard.png)
 
 ---
 
-## 📊 Tools Used
-- **Microsoft Excel**
-- **Formulas:** `SUMIFS`, `COUNTIFS`, `AVERAGEIFS`, `IF`
-- **Pivot Tables & Pivot Charts**
-- **Slicers for interactivity**
-- **Data Validation drop-downs**
-- **Dynamic KPI Cards**
-- **Bar, Line, Donut, and Pie Charts**
+## Tools & Technical Approach
+In this project, I used:
+- Microsoft Excel
+- Formulas such as SUMIFS, COUNTIFS, AVERAGEIFS, and IF for conditional aggregation
+- Pivot Tables for summarizing revenue, quantity, and store-level performance
+- Pivot Charts to visualize trends dynamically
+- Slicers to enable interactive filtering by store, product category, and month
+- Data validation drop-downs for structured filtering
+- Dynamic KPI cards to display key metrics (total revenue, average transaction value, top product)
+- Bar, line, donut, and pie charts for visual storytelling
+
+I structured the workbook to separate raw data, analysis layers, and dashboard presentation to maintain clarity and scalability.
 
 ---
 
-## 📌 Key Insights
-- **Total Revenue** and **Top-Selling Products** are displayed clearly via KPIs and bar charts.
-- **Monthly Revenue Trends** show clear seasonality and peak periods.
-- **Donut chart** visualizes store performance distribution effectively.
-- **Interactive slicers** allow filtering by store, product, and month.
-- **Average sale per transaction** sits around ~$4.69, indicating strong upsell potential.
-- **Task breakdown** demonstrates ability to clean, analyze, and present structured business data in Excel.
+## Key Insights / Results
+Through this dashboard, I identified:
+- Clear revenue concentration among top-selling beverage categories.
+- Seasonal revenue trends with noticeable peak months.
+- One store location consistently outperforming others in total sales.
+- An average transaction value of approximately $4.69, suggesting potential for bundle or upsell strategies.
+- Specific days and hours driving higher transaction volumes, informing staffing and promotional timing.
+- The top five best-selling products contributing a significant share of total revenue.
+
+This analysis demonstrates how structured Excel modeling can support operational planning, revenue optimization, and data-driven decision-making in a retail environment.
 
 ---
 
-## 📂 Dataset Overview
-The dataset contains transactional sales data for a fictional chain of coffee shops and includes:
+## Challenges I Encountered
+One challenge I faced was ensuring formula accuracy across large datasets while maintaining performance efficiency. I addressed this by using structured references and minimizing redundant calculations.
+
+Another challenge involved designing a dashboard that balanced interactivity with simplicity. I resolved this by grouping visuals logically and prioritizing key KPIs at the top.
+
+Additionally, validating consistency between pivot table summaries and formula-based KPIs required careful cross-checking.
+
+---
+
+## Dataset Overview
+The dataset contains transactional sales data for a fictional coffee shop chain and includes:
 - Product names and categories
 - Store locations
 - Transaction date and time
 - Quantity sold
 - Unit price and calculated total sale
-
-> **Source:** [Coffee Sales Dataset | Kaggle](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales)
